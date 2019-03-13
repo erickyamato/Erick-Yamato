@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  EYAboutMeViewController.swift
 //  Erick Yamato
 //
 //  Created by Erick Mitsugui Yamato on 19/12/18.
@@ -8,11 +8,11 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class EYAboutMeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
     }
 
 

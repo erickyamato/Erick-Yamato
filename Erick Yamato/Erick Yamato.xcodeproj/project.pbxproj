@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2D13D1E421CB17BA00C2FD5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D13D1E321CB17BA00C2FD5A /* AppDelegate.swift */; };
-		2D13D1E621CB17BA00C2FD5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D13D1E521CB17BA00C2FD5A /* ViewController.swift */; };
+		2D13D1E621CB17BA00C2FD5A /* EYAboutMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D13D1E521CB17BA00C2FD5A /* EYAboutMeViewController.swift */; };
 		2D13D1E921CB17BA00C2FD5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D13D1E721CB17BA00C2FD5A /* Main.storyboard */; };
 		2D13D1EB21CB17BF00C2FD5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D13D1EA21CB17BF00C2FD5A /* Assets.xcassets */; };
 		2D13D1EE21CB17BF00C2FD5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D13D1EC21CB17BF00C2FD5A /* LaunchScreen.storyboard */; };
@@ -18,7 +18,7 @@
 /* Begin PBXFileReference section */
 		2D13D1E021CB17BA00C2FD5A /* Erick Yamato.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Erick Yamato.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D13D1E321CB17BA00C2FD5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2D13D1E521CB17BA00C2FD5A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2D13D1E521CB17BA00C2FD5A /* EYAboutMeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EYAboutMeViewController.swift; sourceTree = "<group>"; };
 		2D13D1E821CB17BA00C2FD5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2D13D1EA21CB17BF00C2FD5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D13D1ED21CB17BF00C2FD5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -57,7 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				2D13D1E321CB17BA00C2FD5A /* AppDelegate.swift */,
-				2D13D1E521CB17BA00C2FD5A /* ViewController.swift */,
+				2D13D1E521CB17BA00C2FD5A /* EYAboutMeViewController.swift */,
 				2D13D1E721CB17BA00C2FD5A /* Main.storyboard */,
 				2D13D1EA21CB17BF00C2FD5A /* Assets.xcassets */,
 				2D13D1EC21CB17BF00C2FD5A /* LaunchScreen.storyboard */,
@@ -93,6 +93,7 @@
 		2D13D1D821CB17B900C2FD5A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = EY;
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Erick Mitsugui Yamato";
@@ -138,7 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D13D1E621CB17BA00C2FD5A /* ViewController.swift in Sources */,
+				2D13D1E621CB17BA00C2FD5A /* EYAboutMeViewController.swift in Sources */,
 				2D13D1E421CB17BA00C2FD5A /* AppDelegate.swift in Sources */,
 				2DB9E46421D467EC00B401A7 /* AppsViewController.swift in Sources */,
 			);
