@@ -1,0 +1,6 @@
+framework module Pods_Erick_Yamato {
+  umbrella header "Pods-Erick Yamato-umbrella.h"
+
+  export *
+  module * { export * }
+}
